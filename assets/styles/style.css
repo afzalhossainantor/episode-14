@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+:root {
+    --white: white;
+    --lato: 'Lato', sans-serif;
+    --border: 1px solid red;
+    --brand_color: #15a3f8;
+}
+
+/**header part start****/
+
+#header {
+    border: var(--border);
+}
+
+#header .logo_img {
+    padding: 30px 0px;
+}
+
+#header .nav_ver {
+
+    border: var(--border);
+}
+
+#header .nav_ver ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#header .nav_ver ul li {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* #header .nav_ver:hover ul{} */
+    
+
+
+#header .nav_ver ul li a {
+    font-size: 24px;
+    line-height: 24px;
+    color: #222222;
+    font-weight: 400;
+    font-family: var(--lato);
+    text-decoration: none;
+
+    padding-right: 55px;
+
+}
+
+/**header part start****/
+
+/***banner part start***/
+
+#banner {
+    border: var(--border);
+    background-image: url(../images/banner_img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: var(--border);
+}
+
+#banner .overlay {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#banner .banner_img {
+    padding-top: 190px;
+    text-align: center;
+    position: relative;
+}
+
+#banner .banner_img .line {
+    position: absolute;
+    height: 1px;
+    background-color: var(--brand_color);
+    width: 60%;
+    left: 50%;
+    top: 355px;
+    transform: translateX(-50%);
+
+}
+
+#banner .banner_img h2 {
+    font-size: 120px;
+    color: var(--white);
+
+    font-weight: 700px;
+    text-align: center;
+    font-family: var(--lato);
+    letter-spacing: 3px;
+    padding-bottom: 55px;
+}
+
+#banner .banner_img p {
+    font-size: 20px;
+    color: var(--white);
+    line-height: 47px;
+    font-family: var(--lato);
+    letter-spacing: 1px;
+    font-weight: 400px;
+    text-align: center;
+    /* padding-top: 10px; */
+    padding-bottom: 65px;
+}
+
+#banner .banner_img a {}
+
+#banner .banner_img .link_btn {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: var(--white);
+    font-weight: 400;
+    font-family: var(--lato);
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 30px;
+    border: 1px solid #15a3f8;
+    margin-bottom: 150px;
+    display: inline-block;
+}
+
+#banner .banner_img .angle_link {
+    font-size: 35px;
+    letter-spacing: 1px;
+    /* line-height: 35px; */
+    color: #ffffff;
+    /* font-family: "Font Awesome"; */
+    text-align: center;
+    margin-bottom: 70px;
+    display: inline-block;
+
+
+}
+
+/***banner part end***/
+
+/***service part start***/
+.common_heading {
+    text-align: center;
+}
+
+.common_heading h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #2d3950;
+    font-weight: 400;
+    font-family: var(--lato);
+    padding-bottom: 35px;
+}
+
+.common_heading p {
+
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #999999;
+    font-weight: 400;
+    font-family: var(--lato);
+
+}
+
+#service {}
+
+#service .common_heading {
+    padding-top: 80px;
+    padding-bottom: 105px;
+    background-color: #f6f9f9;
+}
+
+
+#service .service_body {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    text-align: center;
+}
+
+#service .service_body h2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #2d3950;
+    font-weight: 400;
+    font-family: var(--lato);
+    text-align: center;
+    padding-top: 30px;
+}
+
+#service .service_body p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #999999;
+    font-weight: 400;
+    font-family: var(--lato);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 65px;
+}
+
+#service .service_body .icon {
+    height: 95px;
+    width: 95px;
+    background-color: #48baff;
+    border-radius: 4px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+#service .service_body .icon .icon_color {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #5fc3ff;
+}
+
+#service .service_body .icon i {
+    font-size: 50px;
+    line-height: 95px;
+  
+    color: #ffffff;
+    position: relative;
+    /* filter: drop-shadow(0.777px 0.629px 0.5px rgba(2,2,2,0.4)); */
+}
+
+
+/***service part end***/
