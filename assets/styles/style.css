@@ -57,7 +57,7 @@ li {
 }
 
 /* #header .nav_ver:hover ul{} */
-    
+
 
 
 #header .nav_ver ul li a {
@@ -245,7 +245,7 @@ li {
 #service .service_body .icon i {
     font-size: 50px;
     line-height: 95px;
-  
+
     color: #ffffff;
     position: relative;
     /* filter: drop-shadow(0.777px 0.629px 0.5px rgba(2,2,2,0.4)); */
@@ -253,3 +253,69 @@ li {
 
 
 /***service part end***/
+
+/****gallery part start***/
+
+#gallery {
+    background-color: #f5f9f9;
+}
+
+#gallery .common_heading {
+    padding-bottom: 80px;
+    padding-top: 80px;
+
+}
+
+#gallery .gallery_img {
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+#gallery .gallery_img img {
+    width: 100%;
+    border-radius: 5px;
+
+
+}
+
+#gallery .gallery_img:hover .hover_part{
+    top: 0;
+}
+
+#gallery .gallery_img .hover_part {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background-color: rgba(21, 162, 250, 0.746);
+    position: absolute;
+    top: -100%;
+    transition-duration: .3s;
+}
+
+#gallery .gallery_img .hover_part ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gallery .gallery_img .hover_part ul li {}
+
+#gallery .gallery_img .hover_part ul li a {}
+
+#gallery .gallery_img .hover_part ul li a i {
+    color: var(--white);
+    font-size: 14px;
+    text-align: center;
+    margin: 0px 5px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--white);
+}
+
+
+/****gallery part end***/
