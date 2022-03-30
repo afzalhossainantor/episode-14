@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./assets/styles/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
-
+    <link rel="stylesheet" href="./assets/styles/responsive.css">
 
 </head>
 
@@ -19,15 +19,15 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-sm-4 col-md-2">
+                <div class="col-sm-2 col-md-0  ">
                     <div class="logo_img">
                         <img src="./assets/images/logo_img/Strict_1.png" alt="logo">
                     </div>
                 </div>
-                <div class="col-2"></div>
-                <div class="col-8">
+                <div class="col-sm-0 col-md-0 d-sm-none d-block"></div>
+                <div class="col-sm-10 col-md-10 ">
                     <nav>
-                        <ul>
+                        <ul id="nav_links">
                             <li> <a href="#">Home</a></li>
                             <li> <a href="#">About</a></li>
                             <li> <a href="#">Service</a></li>
@@ -36,6 +36,11 @@
 
                         </ul>
                     </nav>
+
+                    <button onclick="nav_links.classList.toggle('active')"
+                        class=" btn btn-primary  float-end d-md-none d-block toggle_btn">
+                        <i class="fas fa-align-left"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -156,7 +161,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4 col-sm-">
+                <div class="col-md-4 col-sm-6">
                     <div class="gallery_img">
                         <img src="./assets/images/gallery_img/g1.png" alt="gallery">
                         <div class="hover_part">
@@ -169,7 +174,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-">
+                <div class="col-md-4 col-sm-6">
                     <div class="gallery_img">
                         <img src="./assets/images/gallery_img/g2.png" alt="gallery">
                         <div class="hover_part">
@@ -182,7 +187,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-">
+                <div class="col-md-4 col-sm-6">
                     <div class="gallery_img">
                         <img src="./assets/images/gallery_img/g3.png" alt="gallery">
                         <div class="hover_part">
@@ -195,7 +200,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-">
+                <div class="col-md-4 col-sm-6">
                     <div class="gallery_img">
                         <img src="./assets/images/gallery_img/g4.png" alt="gallery">
                         <div class="hover_part">
@@ -208,7 +213,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-">
+                <div class="col-md-4 col-sm-6">
                     <div class="gallery_img">
                         <img src="./assets/images/gallery_img/g5.png" alt="gallery">
                         <div class="hover_part">
@@ -221,7 +226,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-">
+                <div class="col-md-4 col-sm-6">
                     <div class="gallery_img">
                         <img src="./assets/images/gallery_img/g6.png" alt="gallery">
                         <div class="hover_part">

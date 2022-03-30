@@ -1,0 +1,621 @@
+/* // `xs` returns only a ruleset and no media query */
+/* // {  } */
+
+/* // `xs` applies to x-small devices (portrait phones, less than 576px) */
+@media screen and (max-width: 575px) {
+
+    /*header part start*/
+
+    header {
+        position: relative;
+    }
+
+    header ul {
+        position: absolute;
+        flex-direction: column;
+        right: 0;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
+        border-radius: 5px;
+        padding: 10px 10px;
+        z-index: 99;
+        display: none;
+    }
+
+    header ul.active {
+        display: block;
+    }
+
+
+    header ul li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .toggle_btn {
+        margin-top: -67px;
+
+    }
+
+    header ul li a {
+        font-size: 13px;
+        line-height: 11px;
+        padding-right: 40px;
+    }
+
+    header .logo_img {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /*header part end*/
+
+    /*banner part start*/
+
+    #banner .banner_img {
+        padding-top: 50px;
+
+    }
+
+    #banner .banner_img h2 {
+        font-size: 60px;
+        padding-bottom: 30px;
+    }
+
+    #banner .banner_img p {
+        font-size: 12px;
+        line-height: 27px;
+        padding-bottom: 20px;
+    }
+
+    #banner .banner_img .line {
+        width: 105%;
+        left: 50%;
+        top: 140px;
+    }
+
+    #banner .banner_img .link_btn {
+        font-size: 13px;
+        line-height: 15px;
+        padding: 15px 20px;
+        margin-bottom: 25px;
+
+    }
+
+    #banner .banner_img .angle_link {
+        font-size: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    /*banner part end*/
+
+
+    #service .common_heading {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+    }
+
+    .common_heading h2 {
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+
+    .common_heading p {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: justify;
+    }
+
+    #service .service_body {
+        padding-top: 35px;
+        padding-bottom: 0px;
+
+    }
+
+    #service .service_body h2 {
+        font-size: 18px;
+
+        padding-top: 20px;
+    }
+
+    #service .service_body .icon {
+        height: 85px;
+        width: 85px;
+
+        border-radius: 5px;
+
+    }
+
+    #service .service_body p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 17px;
+        padding-bottom: 15px;
+    }
+
+    #gallery .common_heading {
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    .common_heading p {
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+    }
+
+    #contact .common_heading {
+        padding-top: 50px;
+        padding-bottom: 30px;
+
+    }
+
+    .common_heading h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    #contact .form_body form input,
+    #contact .form_body form textarea {
+        width: 97%;
+        font-size: 16px;
+        padding: 17px;
+        margin-bottom: 15px;
+
+    }
+
+    #contact .form_body form textarea {
+        min-height: 130px;
+
+    }
+
+    #contact .form_body form .confirm_check span {
+        font-size: 12px;
+
+    }
+
+    #contact .form_body form button {
+        height: 40px;
+        width: 94px;
+        font-size: 14px;
+        line-height: 30px;
+
+
+    }
+
+    #contact .overlay {
+       
+        padding-bottom: 55px;
+    }
+
+    footer p {
+       
+       
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    footer ul {
+        
+        justify-content: center;
+    }
+
+    footer {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+/* // `sm` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*header part start*/
+
+    header {
+        position: relative;
+    }
+
+    header ul {
+        position: absolute;
+        flex-direction: column;
+        right: 0;
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
+        border-radius: 5px;
+        padding: 10px 10px;
+        z-index: 99;
+        display: none;
+    }
+
+    header ul.active {
+        display: block;
+    }
+
+
+    header ul li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .toggle_btn {
+        margin-top: 26px;
+
+    }
+
+    header ul li a {
+        font-size: 13px;
+        line-height: 11px;
+        padding-right: 40px;
+    }
+
+    header .logo_img {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /*header part end*/
+
+    /*banner part start*/
+
+    #banner .banner_img {
+        padding-top: 50px;
+
+    }
+
+    #banner .banner_img h2 {
+        font-size: 60px;
+        padding-bottom: 30px;
+    }
+
+    #banner .banner_img p {
+        font-size: 12px;
+        line-height: 27px;
+        padding-bottom: 20px;
+    }
+
+    #banner .banner_img .line {
+        width: 105%;
+        left: 50%;
+        top: 140px;
+    }
+
+    #banner .banner_img .link_btn {
+        font-size: 13px;
+        line-height: 15px;
+        padding: 15px 20px;
+        margin-bottom: 25px;
+
+    }
+
+    #banner .banner_img .angle_link {
+        font-size: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    /*banner part end*/
+
+
+    #service .common_heading {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+    }
+
+    .common_heading h2 {
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+
+    .common_heading p {
+        font-size: 12px;
+        line-height: 20px;
+        text-align: justify;
+    }
+
+    #service .service_body {
+        padding-top: 35px;
+        padding-bottom: 0px;
+
+    }
+
+    #service .service_body h2 {
+        font-size: 18px;
+
+        padding-top: 20px;
+    }
+
+    #service .service_body .icon {
+        height: 85px;
+        width: 85px;
+
+        border-radius: 5px;
+
+    }
+
+    #service .service_body p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 17px;
+        padding-bottom: 15px;
+    }
+
+    #gallery .common_heading {
+        padding-bottom: 40px;
+        padding-top: 30px;
+    }
+
+    .common_heading p {
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+    }
+
+    #contact .common_heading {
+        padding-top: 50px;
+        padding-bottom: 30px;
+
+    }
+
+    .common_heading h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    #contact .form_body form input,
+    #contact .form_body form textarea {
+        width: 97%;
+        font-size: 16px;
+        padding: 17px;
+        margin-bottom: 15px;
+
+    }
+
+    #contact .form_body form textarea {
+        min-height: 130px;
+
+    }
+
+    #contact .form_body form .confirm_check span {
+        font-size: 12px;
+
+    }
+
+    #contact .form_body form button {
+        height: 40px;
+        width: 94px;
+        font-size: 14px;
+        line-height: 30px;
+
+
+    }
+
+    #contact .overlay {
+       
+        padding-bottom: 55px;
+    }
+
+    footer p {
+       
+       
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    footer ul {
+        
+        justify-content: center;
+    }
+
+    footer {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+}
+
+/* // `md` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    header ul li {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    header ul li a {
+        font-size: 14px;
+        padding-right: 30px;
+    }
+
+    header ul {
+        
+        margin-top: 22px;
+    }
+
+    #banner .banner_img {
+        padding-top: 80px;
+      
+    }
+
+    #banner .banner_img h2 {
+        font-size: 100px;
+        padding-bottom: 30px;
+    }
+
+    #banner .banner_img .line {
+     
+        width: 75%;
+        top: 211px;
+       
+    }
+
+    #banner .banner_img p {
+        font-size: 14px;
+        line-height: 44px;
+        padding-bottom: 35px;
+    }
+
+    #banner .banner_img .link_btn {
+       
+        margin-bottom: 70px;
+       
+    }
+
+
+    #service .common_heading {
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
+    }
+
+    .common_heading h2 {
+        font-size: 35px;
+        padding-bottom: 25px;
+    }
+
+    .common_heading p {
+        font-size: 17px;
+        line-height: 25px;
+        
+    }
+
+    #service .service_body {
+        padding-top: 40px;
+        padding-bottom: 15px;
+       
+    }
+
+    #service .service_body h2 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    #service .service_body p {
+        font-size: 13px;
+        line-height: 19px;
+        padding-top: 20px;
+        padding-bottom: 41px;
+    }
+
+    #gallery .common_heading {
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+
+    .common_heading p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #contact .common_heading {
+        padding-top: 50px;
+        padding-bottom: 35px;
+       
+    }
+
+
+    #contact .overlay {
+       
+        padding-bottom: 85px;
+    }
+
+}
+
+/* // `lg` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    header ul li {
+        padding-top: 30px;
+        padding-bottom: 22px;
+    }
+
+    header ul li a {
+        font-size: 20px;
+        line-height: 20px;
+        padding-right: 40px;
+    }
+
+    header .logo_img {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #banner .banner_img {
+        padding-top: 90px;
+       
+    }
+
+
+    #banner .banner_img .line {
+      
+        width: 74%;
+        top: 255px;
+       
+    }
+
+    #service .service_body {
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+
+    #banner .banner_img .link_btn {
+       
+        margin-bottom: 110px;
+        
+    }
+
+    #service .common_heading {
+        padding-top: 70px;
+        padding-bottom: 70px;
+      
+    }
+
+    .common_heading p {
+        font-size: 18px;
+       
+        line-height: 26px;
+    }
+
+    #service .service_body {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    #service .service_body p {
+        font-size: 13px;
+        line-height: 19px;
+        padding-top: 18px;
+        padding-bottom: 30px;
+    }
+
+    #gallery .common_heading {
+        padding-bottom: 70px;
+        padding-top: 70px;
+    }
+
+    .common_heading h2 {
+       
+        padding-bottom: 20px;
+    }
+
+    #contact .common_heading {
+        padding-top: 60px;
+       
+    }
+
+    #contact .overlay {
+        
+        padding-bottom: 100px;
+    }
+
+    footer {
+        padding-top: 28px;
+        padding-bottom: 0px;
+    }
+}
+
+/* // `xl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (mix-width: 1400px) {}
